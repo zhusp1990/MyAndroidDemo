@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">安卓Demo_朱</string>
+    <string name="self_define_view">我的自定义控件</string>
+    <string name="view_pager_indicator">ViewPagerIndicator(滑动指示器)</string>
+    <string name="my_watch_view">MyWatchView(自定义表盘)</string>
+    <string name="line_chart">LineChart(折线图)</string>
+    <string name="circle_scale_view">CircleScaleView(圆环比例图)</string>
+</resources>
