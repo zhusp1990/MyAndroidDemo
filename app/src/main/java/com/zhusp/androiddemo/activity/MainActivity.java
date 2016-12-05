@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.zhusp.androiddemo.R;
+import com.zhusp.androiddemo.activity.assistuse.AssistUseActivity;
 import com.zhusp.androiddemo.activity.selfwidget.SelfDefindViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()){
             case R.id.btn_define_view:
                 startActivity(new Intent(this,SelfDefindViewActivity.class));
+                break;
+            case R.id.btn_assist:
+                startActivity(new Intent(this,AssistUseActivity.class));
                 break;
         }
     }

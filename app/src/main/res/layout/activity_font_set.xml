@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单个TextView字体设置：方正古隶"/>
+
+    <TextView
+        android:id="@+id/tv_test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="单个TextView字体设置：华康娃娃体"/>
+
+    <LinearLayout
+        android:id="@+id/ll_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Group中TextView整体设置：pop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Group中TextView整体设置：pop"/>
+    </LinearLayout>
+</LinearLayout>

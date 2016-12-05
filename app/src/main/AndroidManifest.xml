@@ -19,7 +19,9 @@
         <activity android:name=".activity.selfwidget.ViewPagerIndicatorActivity" />
         <activity android:name=".activity.selfwidget.MyWatchViewActivity" />
         <activity android:name=".activity.selfwidget.LineChartActivity" />
-        <activity android:name=".activity.selfwidget.CircleScaleViewActivity"></activity>
+        <activity android:name=".activity.selfwidget.CircleScaleViewActivity" />
+        <activity android:name=".activity.assistuse.AssistUseActivity" />
+        <activity android:name=".activity.assistuse.FontSetActivity"></activity>
     </application>
 
 </manifest>

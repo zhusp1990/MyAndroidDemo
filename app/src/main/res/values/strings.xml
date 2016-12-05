@@ -5,4 +5,6 @@
     <string name="my_watch_view">MyWatchView(自定义表盘)</string>
     <string name="line_chart">LineChart(折线图)</string>
     <string name="circle_scale_view">CircleScaleView(圆环比例图)</string>
+    <string name="assist_use">辅助应用</string>
+    <string name="text_font_set">TextView字体设置</string>
 </resources>
