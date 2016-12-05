@@ -1,4 +1,4 @@
-package com.zhusp.androiddemo;
+package com.zhusp.androiddemo.activity.selfwidget;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -6,6 +6,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.zhusp.androiddemo.R;
 import com.zhusp.androiddemo.fragment.SimpleFragment;
 import com.zhusp.androiddemo.views.ViewPagerIndicator;
 

@@ -1,7 +1,9 @@
-package com.zhusp.androiddemo;
+package com.zhusp.androiddemo.activity.selfwidget;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.zhusp.androiddemo.R;
 
 public class MyWatchViewActivity extends AppCompatActivity {
 

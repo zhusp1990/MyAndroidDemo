@@ -1,9 +1,11 @@
-package com.zhusp.androiddemo;
+package com.zhusp.androiddemo.activity.selfwidget;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.zhusp.androiddemo.R;
 
 public class SelfDefindViewActivity extends AppCompatActivity {
 

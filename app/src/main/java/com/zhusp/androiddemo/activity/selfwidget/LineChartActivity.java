@@ -1,10 +1,11 @@
-package com.zhusp.androiddemo;
+package com.zhusp.androiddemo.activity.selfwidget;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.zhusp.androiddemo.R;
 import com.zhusp.androiddemo.views.LineChart;
 
 import java.util.ArrayList;
