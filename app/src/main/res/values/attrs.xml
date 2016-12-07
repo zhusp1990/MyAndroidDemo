@@ -37,4 +37,8 @@
         <attr name="circleWidth" format="dimension" />
         <attr name="radius" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="DropdownLayout">
+        <attr name="dropSpeed" format="integer"/>
+    </declare-styleable>
 </resources>

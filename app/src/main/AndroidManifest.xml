@@ -21,7 +21,8 @@
         <activity android:name=".activity.selfwidget.LineChartActivity" />
         <activity android:name=".activity.selfwidget.CircleScaleViewActivity" />
         <activity android:name=".activity.assistuse.AssistUseActivity" />
-        <activity android:name=".activity.assistuse.FontSetActivity"></activity>
+        <activity android:name=".activity.assistuse.FontSetActivity" />
+        <activity android:name=".activity.selfwidget.DropdownViewActivity"></activity>
     </application>
 
 </manifest>

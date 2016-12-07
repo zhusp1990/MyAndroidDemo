@@ -43,6 +43,14 @@
                 android:onClick="onClick"
                 android:layout_marginTop="5dp"
                 android:text="@string/circle_scale_view"/>
+            <Button
+                android:id="@+id/btn_top_slide_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                android:layout_marginTop="5dp"
+                android:text="@string/top_slide_menu"/>
         </LinearLayout>
     </ScrollView>
 

@@ -29,6 +29,9 @@ public class SelfDefindViewActivity extends AppCompatActivity {
             case R.id.btn_circle_scale:
                 startActivity(new Intent(this,CircleScaleViewActivity.class));
                 break;
+            case R.id.btn_top_slide_menu:
+                startActivity(new Intent(this,DropdownViewActivity.class));
+                break;
         }
     }
 }

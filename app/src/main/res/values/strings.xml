@@ -7,4 +7,5 @@
     <string name="circle_scale_view">CircleScaleView(圆环比例图)</string>
     <string name="assist_use">辅助应用</string>
     <string name="text_font_set">TextView字体设置</string>
+    <string name="top_slide_menu">DropdownLayout(下拉抽屉式控件)</string>
 </resources>
