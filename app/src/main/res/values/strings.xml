@@ -8,4 +8,8 @@
     <string name="assist_use">辅助应用</string>
     <string name="text_font_set">TextView字体设置</string>
     <string name="top_slide_menu">DropdownLayout(下拉抽屉式控件)</string>
+    <string name="widget_extends_use">控件拓展应用</string>
+    <string name="recyclerview_item_drag">RecyclerView Item拖拽效果</string>
+    <string name="list_mode">List模式</string>
+    <string name="grid_mode">Grid模式</string>
 </resources>

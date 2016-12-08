@@ -22,7 +22,9 @@
         <activity android:name=".activity.selfwidget.CircleScaleViewActivity" />
         <activity android:name=".activity.assistuse.AssistUseActivity" />
         <activity android:name=".activity.assistuse.FontSetActivity" />
-        <activity android:name=".activity.selfwidget.DropdownViewActivity"></activity>
+        <activity android:name=".activity.selfwidget.DropdownViewActivity" />
+        <activity android:name=".activity.extend.WidgetExtendActivity" />
+        <activity android:name=".activity.extend.dragRecyclerView.RecyclerViewDragActivity"></activity>
     </application>
 
 </manifest>

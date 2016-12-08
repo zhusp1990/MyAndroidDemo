@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.zhusp.androiddemo.R;
 import com.zhusp.androiddemo.activity.assistuse.AssistUseActivity;
+import com.zhusp.androiddemo.activity.extend.WidgetExtendActivity;
 import com.zhusp.androiddemo.activity.selfwidget.SelfDefindViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_assist:
                 startActivity(new Intent(this,AssistUseActivity.class));
+                break;
+            case R.id.btn_widget_extend:
+                startActivity(new Intent(this,WidgetExtendActivity.class));
                 break;
         }
     }
