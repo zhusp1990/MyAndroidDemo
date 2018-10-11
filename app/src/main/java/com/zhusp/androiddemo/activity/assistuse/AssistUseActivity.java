@@ -24,15 +24,6 @@ public class AssistUseActivity extends AppCompatActivity {
             case R.id.btn_font_set:
                 startActivity(new Intent(this,FontSetActivity.class));
                 break;
-            case R.id.btn_my_watch:
-                startActivity(new Intent(this,MyWatchViewActivity.class));
-                break;
-            case R.id.btn_line_chart:
-                startActivity(new Intent(this,LineChartActivity.class));
-                break;
-            case R.id.btn_circle_scale:
-                startActivity(new Intent(this,CircleScaleViewActivity.class));
-                break;
         }
     }
 }
