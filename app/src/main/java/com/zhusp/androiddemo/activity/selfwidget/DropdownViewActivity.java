@@ -15,7 +15,7 @@ public class DropdownViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_slide_menu);
-        mDropdownView = (DropdownLayout) findViewById(R.id.dropdown_layout);
+        mDropdownView = findViewById(R.id.dropdown_layout);
     }
 
     public void onClick(View v){

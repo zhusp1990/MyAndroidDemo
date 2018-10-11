@@ -53,7 +53,7 @@ public class DropdownLayout extends LinearLayout {
             int childCount = rootDropView.getChildCount();
             if (childCount>0){
                 mDropView = rootDropView.getChildAt(0);
-                mDropHeight = mDropView.getHeight();
+                mDropHeight = mDropView.getMeasuredHeight();
                 Log.i(TAG,"onMeasure dropHeight:"+mDropHeight);
                 mDropView.setY(-mDropHeight);
             }
