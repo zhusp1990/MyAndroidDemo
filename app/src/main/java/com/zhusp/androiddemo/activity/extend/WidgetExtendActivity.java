@@ -7,6 +7,8 @@ import android.view.View;
 
 import com.zhusp.androiddemo.R;
 import com.zhusp.androiddemo.activity.extend.dragRecyclerView.RecyclerViewDragActivity;
+import com.zhusp.androiddemo.activity.selfwidget.DanmuTestActivity;
+import com.zhusp.androiddemo.activity.svguse.SVGUseActivity;
 
 public class WidgetExtendActivity extends AppCompatActivity {
 
@@ -20,6 +22,15 @@ public class WidgetExtendActivity extends AppCompatActivity {
         switch (v.getId()){
             case R.id.btn_recycler_drag:
                 startActivity(new Intent(this,RecyclerViewDragActivity.class));
+                break;
+            case R.id.btn_danmu_test:
+                startActivity(new Intent(this,DanmuTestActivity.class));
+                break;
+            case R.id.btn_diff_text:
+                startActivity(new Intent(this,DiffPropertyTextActivity.class));
+                break;
+            case R.id.btn_svg_use:
+                startActivity(new Intent(this,SVGUseActivity.class));
                 break;
         }
     }

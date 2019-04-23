@@ -1,7 +1,12 @@
 package com.zhusp.androiddemo.utils;
 
+import android.app.ActivityManager;
 import android.content.Context;
+import android.text.TextUtils;
 import android.util.Log;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * -----------------------------------------------------
@@ -33,4 +38,6 @@ public class CommonUtil {
         }
         return data;
     }
+
+
 }

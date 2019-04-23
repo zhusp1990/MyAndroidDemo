@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_dammu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_dammu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="油菜打赏了《元尊》100000书豆，成为本作品盟主"
+            android:textSize="18dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_danmu3x"/>
+    </HorizontalScrollView>
+
+    <com.zhusp.androiddemo.views.DanmuLayout
+        android:id="@+id/dl_danmu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_show_danmu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="显示弹幕"/>
+</RelativeLayout>

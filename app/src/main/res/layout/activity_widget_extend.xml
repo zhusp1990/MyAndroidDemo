@@ -11,4 +11,25 @@
         android:textAllCaps="false"
         android:onClick="onClick"
         android:text="@string/recyclerview_item_drag"/>
+    <Button
+        android:id="@+id/btn_danmu_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/text_danmu_test"/>
+    <Button
+        android:id="@+id/btn_diff_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/text_diff_property"/>
+    <Button
+        android:id="@+id/btn_svg_use"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/svg_use"/>
 </LinearLayout>

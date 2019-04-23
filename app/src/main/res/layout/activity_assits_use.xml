@@ -19,6 +19,13 @@
                 android:textAllCaps="false"
                 android:onClick="onClick"
                 android:text="@string/text_font_set"/>
+            <Button
+                android:id="@+id/btn_float_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                android:text="@string/text_float_button_show"/>
 
         </LinearLayout>
     </ScrollView>

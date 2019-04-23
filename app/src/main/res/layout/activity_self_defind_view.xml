@@ -51,6 +51,23 @@
                 android:onClick="onClick"
                 android:layout_marginTop="5dp"
                 android:text="@string/top_slide_menu"/>
+            <Button
+                android:id="@+id/btn_expand_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_expand_textview"/>
+
+            <Button
+                android:id="@+id/btn_horizontal_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:onClick="onClick"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_horizontal_video_show"/>
         </LinearLayout>
     </ScrollView>
 

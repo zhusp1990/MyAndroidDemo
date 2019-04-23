@@ -15,22 +15,30 @@ public class SelfDefindViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_self_defind_view);
     }
 
-    public void onClick(View view){
-        switch (view.getId()){
+    public void onClick(View view) {
+        switch (view.getId()) {
             case R.id.btn_view_pager_indicator:
-                startActivity(new Intent(this,ViewPagerIndicatorActivity.class));
+                startActivity(new Intent(this, ViewPagerIndicatorActivity.class));
                 break;
             case R.id.btn_my_watch:
-                startActivity(new Intent(this,MyWatchViewActivity.class));
+                startActivity(new Intent(this, MyWatchViewActivity.class));
                 break;
             case R.id.btn_line_chart:
-                startActivity(new Intent(this,LineChartActivity.class));
+                startActivity(new Intent(this, LineChartActivity.class));
                 break;
             case R.id.btn_circle_scale:
-                startActivity(new Intent(this,CircleScaleViewActivity.class));
+                startActivity(new Intent(this, CircleScaleViewActivity.class));
                 break;
             case R.id.btn_top_slide_menu:
-                startActivity(new Intent(this,DropdownViewActivity.class));
+                startActivity(new Intent(this, DropdownViewActivity.class));
+                break;
+
+            case R.id.btn_expand_textView:
+                startActivity(new Intent(this, ExpandTextViewActivity.class));
+                break;
+
+            case R.id.btn_horizontal_video:
+                startActivity(new Intent(this, ExpandTextViewActivity.class));
                 break;
         }
     }
