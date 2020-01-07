@@ -32,4 +32,12 @@
         android:textAllCaps="false"
         android:onClick="onClick"
         android:text="@string/svg_use"/>
+
+    <Button
+        android:id="@+id/btn_float_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:text="@string/text_float_btn"/>
 </LinearLayout>

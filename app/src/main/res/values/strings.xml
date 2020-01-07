@@ -24,4 +24,5 @@
     <string name="text_danmu_test">弹幕测试应用</string>
     <string name="text_diff_property">一个TextView不同属性内容展示</string>
     <string name="svg_use">矢量图SVG使用</string>
+    <string name="text_float_btn">应用悬浮窗</string>
 </resources>

@@ -8,6 +8,7 @@ import android.view.View;
 import com.zhusp.androiddemo.R;
 import com.zhusp.androiddemo.activity.extend.dragRecyclerView.RecyclerViewDragActivity;
 import com.zhusp.androiddemo.activity.selfwidget.DanmuTestActivity;
+import com.zhusp.androiddemo.activity.selfwidget.SelfViewTestActivity;
 import com.zhusp.androiddemo.activity.svguse.SVGUseActivity;
 
 public class WidgetExtendActivity extends AppCompatActivity {
@@ -31,6 +32,9 @@ public class WidgetExtendActivity extends AppCompatActivity {
                 break;
             case R.id.btn_svg_use:
                 startActivity(new Intent(this,SVGUseActivity.class));
+                break;
+            case R.id.btn_float_btn:
+                startActivity(new Intent(this, SelfViewTestActivity.class));
                 break;
         }
     }
